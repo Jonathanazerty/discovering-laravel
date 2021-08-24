@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('hello');
+    // return view('hello');
+    return view('view', ['name' => 'alien']);
 });
 
-Route::get('/hello',[\App\Http\Controllers\Controller:: class, 'hello']);
+// Route::get('/hello',[\App\Http\Controllers\Controller:: class, 'hello']);
+Route::get('/view',[\App\Http\Controllers\Controller:: class, 'view']);

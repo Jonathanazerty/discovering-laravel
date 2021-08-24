@@ -15,4 +15,8 @@ class Controller extends BaseController
     {
         return view('hello');
     }
+    public function view ()
+    {
+        return view('view');
+    }
 }
