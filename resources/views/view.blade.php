@@ -2,19 +2,18 @@
 
 @section ('header')
     <header>
-        header
+    <h1>🩸🩸🩸🩸🩸🩸🩸🩸🩸🩸</h1>
     <header>
 @endsection
 
-@section ('content')
+@section ('main')
     <main>
-        Hello, {!! $name !!}
+    <h1>🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿🧛‍♂️🧛‍♀️ <b>Welcome Blade !</b></h1>
     </main>
-
 @endsection
 
 @section ('footer')
     <footer>
-        footer
+    <h1>🧄🧄🧄🧄🧄🧄🧄🧄🧄🧄</h1>
     </footer>
 @endsection
