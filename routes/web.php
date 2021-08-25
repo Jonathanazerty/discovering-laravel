@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\Controller::class, 'view']);
+Route::post('/', [\App\Http\Controllers\Controller::class, 'postView']);
 // Route::get('/hello',[\App\Http\Controllers\Controller:: class, 'hello']);
 // Route::get('/view',[\App\Http\Controllers\Controller:: class, 'view']);
