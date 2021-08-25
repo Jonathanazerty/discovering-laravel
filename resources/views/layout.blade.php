@@ -13,15 +13,10 @@
 <body>
 
     @include('header')
-                    
-    @include('main')
-    @section ('header')
-    @show
+
     @section ('main')
     @show
-    @section ('footer')
-    @show
-            
+
     @include('footer')
 
 </body>
