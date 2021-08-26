@@ -1,5 +1,70 @@
-body{
-    background-color: lightblue;
+body {
+    background-color: #631010;
     text-align: center;
-    color: rgb(2, 2, 27);
+    color: red;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  label{
+    color: rgb(255, 154, 1);
+  }
+
+  input[type=text] {
+    padding: 10px;
+    color: rgb(253, 43, 43);
+    background: black;
+    opacity: 80%;
+    box-shadow: 4px 4px 4px red;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
+    font-weight: italic;
+  }
+
+  ::placeholder{
+    color: red;
+    opacity: 70%;
+  }
+
+  input[type=text]:hover{
+    transform: scale(1.2);
 }
+
+  input[type=submit] {
+    padding: 15px;
+    background: #420b02;
+    box-shadow: 4px 4px 4px red;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  input[type=submit]:hover{
+      transform: scale(1.2);
+
+  }
+
+//   .container-link {
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     font-size: xx-large;
+//     color: red;
+//     text-decoration: none;
+//     }
+
+//     .container-link:hover{
+//         font-size: 250%;
+//     }
+
+//     footer {
+//         position: fixed;
+//         left: 0;
+//         bottom: 0;
+//         width: 100%;
+//         text-align: center;
+//     }
