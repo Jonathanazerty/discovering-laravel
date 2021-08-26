@@ -34,6 +34,8 @@ class Controller extends BaseController
         $vampire = new Vampire;
 
         $vampire->name = $request->vampire_name;
+        $vampire->powers = $request->vampire_powers;
+        $vampire->kryptonite = $request->vampire_kryptonite;
 
         $vampire->save();
 
